@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 const mallIcon = require('../assets/markers/mall.png');
 const gasIcon = require('../assets/markers/gas.png');
 
-const API_KEY = '0bc987b6cc0149c088a96234201d1edd';
+const API_KEY = process.env.EXPO_PUBLIC_GEOAPIFY_API_KEY;
 
 export default function HomeScreen() {
   const [pois, setPOIs] = useState([]);

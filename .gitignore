@@ -34,3 +34,10 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Credentials (never commit)
+.env
+.env.*
+!.env.example
+*api key*
+Geoapify API.txt

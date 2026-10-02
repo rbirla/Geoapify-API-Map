@@ -13,7 +13,7 @@ A React Native + Expo app that uses the **Geoapify Places API** to find and disp
 ### Requirements
 - **Node.js** 20+ and npm
 - **Expo Go** app on your phone (iOS/Android)
-- A **Geoapify API key** ([Get one here](https://www.geoapify.com/get-started-with-maps-api))
+- A **Geoapify API key** ([Get one here](https://www.geoapify.com/get-started-with-maps-api)). Copy `.env.example` to `.env` and set `EXPO_PUBLIC_GEOAPIFY_API_KEY`.
 
 ---
 
